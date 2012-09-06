@@ -5,6 +5,9 @@ Blockly Stuff
 
 After a manual (`"Go forward", "Go Forward", "Turn Left"…`) version that only solved one maze, we set out to solve it more generally.
 
+Maze
+----
+
 Here's how quick and dirty programmers get the job done:
 ![Maze Solution: Super Simple](https://raw.github.com/bangk/blockly-stuff/master/maze-super_simple.png)
 
@@ -19,7 +22,15 @@ Note that we didn't arrive at that simple version immediately. At first we faile
 0. Test
 0. Repeat
 
-I have the hunch that it could be simplified a bit more, but this was a good enough level of simplicity for the amount of time we had available.
+We decided was a good enough level of simplicity for the amount of time we had available, but sure enough, Bill "ενδικος" Knechtel and his son Gabriel made this version last night:
+
+<a name="knechtel">
+![Maze Solution: Better Logic](https://raw.github.com/bangk/blockly-stuff/master/maze-knechtel.png)
+
+(And they didn't notice that you can query `wall (to the left)`, so there's even more potential simplification.)
+
+Guessing Game
+-------------
 
 We also did some more traditional user interaction:
 
