@@ -22,9 +22,9 @@ Note that we didn't arrive at that simple version immediately. At first we faile
 0. Test
 0. Repeat
 
+<a name="knechtel">
 We decided was a good enough level of simplicity for the amount of time we had available, but sure enough, Bill "ενδικος" Knechtel and his son Gabriel made this version last night:
 
-<a name="knechtel">
 ![Maze Solution: Better Logic](https://raw.github.com/bangk/blockly-stuff/master/maze-knechtel.png)
 
 (And they didn't notice that you can query `wall (to the left)`, so there's even more potential simplification.)
